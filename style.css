@@ -58,6 +58,9 @@ section.img{
   max-width: 100%;
   background-size: cover;
   background-attachment: fixed ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 section.img > p {
@@ -104,11 +107,7 @@ section p {
   background-image: url(./imagens/background002.jpg);
 }
 
-@media (max-width: 400px){
-section.img{
-   background-attachment: unset;
-}
-}
+
 @media (max-width: 800px) {
   .img1,.img2 {
     max-width: 100%;
